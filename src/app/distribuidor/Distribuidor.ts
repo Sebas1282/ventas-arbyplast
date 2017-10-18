@@ -1,0 +1,6 @@
+class Distribuidor {
+    
+    constructor() {
+        
+    }
+}
