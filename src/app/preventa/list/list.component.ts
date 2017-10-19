@@ -7,7 +7,9 @@ import { PreventaDataService } from '../preventa-data.service';
   styleUrls: ['./list.component.css']
 })
 export class ListComponent implements OnInit {
-
+  opcionesDePago = [
+    "Credito","Efectivo"
+  ];
   constructor(
     private preventaDataService:PreventaDataService
   ) { }

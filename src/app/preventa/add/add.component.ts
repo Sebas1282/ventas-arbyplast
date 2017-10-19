@@ -12,6 +12,7 @@ declare var datepicker:any;
 })
 export class AddComponent implements OnInit {
   public preventa:Preventa;
+  
   constructor(
     private preventaDataService:PreventaDataService
   ) { }
